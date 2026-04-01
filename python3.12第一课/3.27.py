@@ -16,7 +16,7 @@ mydict1.clear()  #清空字典，注意不是删除字典，会变成空字典
 print(mydict1)
 
 #获取字典中的元素信息：keys，values，items
-mydict3={'name':'张三','age':20,'address':'江西省赣州市'}
+mydict3 = {'name': '张三', 'age': 20, 'address': '江西省赣州市'}
 print(mydict3.keys())
 print(mydict3.values())
 print(mydict3.items())
