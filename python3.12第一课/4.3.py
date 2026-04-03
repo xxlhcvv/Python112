@@ -35,5 +35,5 @@ print("奇数和为: ",sum_y)
 # 嵌套循环
 for i in range(1,10):  # 0,1,2,3
     for j in range(1,i+1):  # 0,1,2,3
-        print(i,"*",j,"=",i*j,"  ", end='')  # 4*4个星号
+        print(i,"*",j,"=",i*j," ", end='')  # 4*4个星号
     print()
