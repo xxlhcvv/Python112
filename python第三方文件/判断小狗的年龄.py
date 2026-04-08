@@ -11,6 +11,6 @@ while True:
             print("相当于人类的年龄:", human)
     elif age.upper()=='Q':  #.upper可以把输入的字母变为大写，==比较运算符
         print("计算结束！")
-        break  #立刻跳出并结束当前的循环
+        break  #立刻跳出并结束当前的循环。
     else:
         print("请输入数字，按Q键退出！")
