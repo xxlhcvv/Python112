@@ -17,5 +17,5 @@ def multi(a, b, c):
 
 
 print(multi("*", 6, 7))
-#
+
 
