@@ -38,12 +38,12 @@
     &quot;assignee&quot;: &quot;xxlhcvv&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:xxlhcvv/my-project.git&quot;,
-    &quot;accountId&quot;: &quot;01456c71-2b06-495c-88cd-47e0b48de15d&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:xxlhcvv/my-project.git",
+    "accountId": "4d00eeaf-1b6b-45ef-8a75-6422ee614424"
   }
-}</component>
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -69,6 +69,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.二手车价格估算.executor": "Run",
     "Python.二手车估价.executor": "Run",
+    "Python.练习.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -145,7 +146,7 @@
       <workItem from="1775620091157" duration="605000" />
       <workItem from="1775621952040" duration="188000" />
       <workItem from="1775646916670" duration="105000" />
-      <workItem from="1775790168370" duration="466000" />
+      <workItem from="1775790168370" duration="803000" />
     </task>
     <task id="LOCAL-00001" summary="二手车估价">
       <option name="closed" value="true" />
@@ -195,7 +196,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775790209961</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="二手车估价">
+      <option name="closed" value="true" />
+      <created>1775790655859</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1775790655859</updated>
+    </task>
+    <task id="LOCAL-00008" summary="二手车估价">
+      <option name="closed" value="true" />
+      <created>1775790773091</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1775790773091</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
