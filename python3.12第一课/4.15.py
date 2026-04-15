@@ -25,3 +25,5 @@ def day_income(unit_price,*table_count):
     return sum_price
 
 print(day_income(10, 12,9,7,10,7,6,11,9,8,11))
+
+
