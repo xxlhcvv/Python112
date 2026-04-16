@@ -1,7 +1,7 @@
 #自定义函数def
 def sum1(a, b):  #sum1为函数名，a和b为参数
-    sum = a + b  #代码块，函数实现的功能
-    return sum  #return返回值，不具备打印功能
+    sum2 = a + b  #代码块，函数实现的功能
+    return sum2  #return返回值，不具备打印功能
 
 
 #函数的调用：函数名（参数）
@@ -35,7 +35,7 @@ exp(1, 2, 2, 4, 6, 8, a='c', b=1)
 
 def multi_sum(*x):
     sum = 0
-    for i in x:
+    for i in x: #求和函数
         sum += i
     return sum
 
