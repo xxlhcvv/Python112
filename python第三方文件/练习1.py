@@ -1,24 +1,14 @@
-def sum(x):
-    total = 0
-    for num in x:
-        total += num
-    return total
+class car:
+    wheel = 4
+    color = 'red'
+
+    def getcarlnfo(self, name):
+        return '%s有%d个轮子，颜色是%s' % (name, car.wheel, car.color)
+
+    def run(self):
+        return "车行驶在学习的大道上"
 
 
-def mean(x):
-    return sum(x) / len(x)
-
-
-def sums(x):
-    avg = mean(x)
-    total = 0
-    for num in x:
-        total += (num - avg) ** 2
-    return total
-
-
-def var(x):
-    return sums(x) / len(x)
-
-
-print(var([1, 2, 3, 4, 5]))
+new_car = car()
+print(new_car.getcarlnfo("奔驰"))
+print(new_car.run())
