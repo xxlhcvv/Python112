@@ -41,3 +41,30 @@ print(daqiao1)
 print(daqiao1.skill_1())
 print(daqiao1.skill_3())
 print(daqiao1.skill_4())
+
+
+'''创建一个Car类，代表一辆汽车，具有车轮数（4）和颜色（red）的属性，
+以及两个函数：getCarInfo和run。通过实例化Car类并调用其方法，可以
+看到汽车的基本信息和行驶状态。'''
+
+# （1）使用class语句创建Car类，添加车轮数和颜色两个属性。
+class Car:
+    wheelNum = 4
+    color = 'red'
+
+    # （2）使用def关键字定义getCarInfo函数，增加参数name，返回名字、
+    # 车轮数和颜色3个属性的字符串。
+    def getCarInfo(self,name):
+        self.name = name
+        return '%s有%d个车轮，颜色是%s。'%(self.name,self.wheelNum,self.color)
+
+    # （3）使用def关键字定义run函数，返回语句“车行驶在学习的大道上。”。
+    def run(self):
+        return '车行驶在学习的大道上。'
+
+# （4）调用Car类赋值于new_car。
+new_car = Car()
+
+# （5）使用new_car调用getCarInfo函数和run函数。
+print(new_car.getCarInfo('小车'))
+print(new_car.run())
