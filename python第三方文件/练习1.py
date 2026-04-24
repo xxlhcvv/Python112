@@ -1,14 +1,12 @@
 class car:
-    wheel = 4
-    color = 'red'
+    def __init__(self, newWheelNum, newColor):
+        self.newWheelNum = newWheelNum
+        self.newColor = newColor
+    def run (self):
+        print("车在跑，目标:夏威夷。")
+    def __del__(self):
+        print("---析构方法被调用---")
+BMW=car(4,"黑色")
+print('车轮数:%d,颜色:%s'%(BMW.newWheelNum,BMW.newColor))
+BMW.run()
 
-    def getcarlnfo(self, name):
-        return '%s有%d个轮子，颜色是%s' % (name, car.wheel, car.color)
-
-    def run(self):
-        return "车行驶在学习的大道上"
-
-
-new_car = car()
-print(new_car.getcarlnfo("奔驰"))
-print(new_car.run())
