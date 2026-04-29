@@ -5,11 +5,11 @@
 #类的专有方法__init__,释放对象时被调用
 class cat:
     '''模拟猫'''
-    #构造方法__init__
+    #构造方法__init__  ,创建对象时自动运行
     def __init__(self,name,age):
         self.__name=name
         self.__age=age
-    #析构方法__del__
+    #析构方法__del__ ，删除对象时自动运行
     def __del__(self):
         print('--析构函数被调用')
     # 普通方法
