@@ -12,7 +12,7 @@ class cat:
     def __iter__(self):#迭代函数
         print('名字,年龄')
         return self
-    def next(self):
+    def next(self):#迭代函数
         if self.index==len(self.info)-1:
             raise StopIteration
         self.index+=1
