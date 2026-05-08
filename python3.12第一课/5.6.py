@@ -31,7 +31,7 @@ bs = Bosi()
 print(bs.name, bs.age)  # 子类继承了父类的属性
 print(bs.run())  # 子类继承了父类的方法
 bs.setName('波斯猫')
-print(bs.name)  # 子类的属性和方法
+print(bs.name)  #子类的属性和方法
 print(bs.eat())
 # 迭代输出父类的属性
 iterator = iter(bs.next, 1)
