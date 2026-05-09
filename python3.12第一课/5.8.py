@@ -26,5 +26,6 @@ with open('./data/xxlhcvv.txt','r',encoding='utf-8') as f:
 
 #写入文件，标识符设置为“w”，若文件不存在，则创建文件
 with open('./data/zzx.txt','w',encoding='utf-8') as f:
-    f.writelines('hello world')
+    f.writelines('hello world\n')
+    f.write('love python!')
     #使用write函数
