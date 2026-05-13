@@ -4,7 +4,6 @@ weight_list = []
 with open('./data/height_weight.csv', 'r', encoding='utf-8') as f:
     reader = csv.DictReader(f)
     for row in reader:
-        # 步骤2：字符串转浮点数
         height = float(row['身高/cm'])
         weight = float(row['体重/kg'])
         height_list.append(height)
