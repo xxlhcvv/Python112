@@ -13,7 +13,7 @@ with open('./data/carsales.csv','r',encoding='gbk') as f:
     #carsales1=[carsales_item for carsales_item in reader]
     #print(carsales1)
     column=[carsales_item['汽车型号'] for carsales_item in reader]
-    print(column)#字典优势，针对获取某一列数据
+    print(column)#字典优势：针对获取某一列数据
 
 #将数据写入csv文件
 #writerow函数将数据逐行写入csv文件
